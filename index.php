@@ -5,12 +5,16 @@
 	<title>Анкета</title>
 	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">	
 	<meta name="title" content="Анкета для собеседования">
+	
 <!-----Styles------>
 	
 	<link href="css/style.css" type="text/css" rel="stylesheet"  media="screen"/>
 	<link href="css/overheight.css" type="text/css" rel="stylesheet"  media="screen"/>
 	<link href="css/jquery.fancybox.css" type="text/css" rel="stylesheet" media="screen"/>
 	<link href="css/nouislider.min.css" type="text/css" rel="stylesheet" media="screen"/>
+	<link href="css/jquery.formstyler.css" type="text/css" rel="stylesheet" media="screen"/>
+	
+	
 <!---JavaScripts--->
 	
 	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
@@ -18,6 +22,7 @@
 	<script type="text/javascript" src="js/overheight.js"></script>
 	<script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
+	<script type="text/javascript" src="js/jquery.formstyler.min.js"></script>
 
 </head>
 <body>

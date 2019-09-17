@@ -90,19 +90,22 @@ if( window.innerWidth < 768 ){
 	}	
 	
 	
+
+	
+//Кастомизация option
+
+$('.form__field--age').styler();
+
 //Для птички у select	
-$('.form__field--age').on('click',function(){
+$('.jq-selectbox__select').on('click',function(){
 	$('#arrow').toggleClass('select-open');	
 	});
 $(document).mouseup(function (e){ 
-        var div = $('.form__field--age'); 
+        var div = $('.jq-selectbox__select'); 
         if (!div.is(e.target) && div.has(e.target).length === 0) { 
             $('#arrow').removeClass('select-open'); 
         }
-    });	
-
-
-	
+    });		
 	
 });
 

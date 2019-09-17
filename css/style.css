@@ -32,14 +32,19 @@ main.profile{padding-top: 75px}
 .profile__section--1 .profile__form-wrapper{-webkit-box-shadow: 0px 3px 20px 39px white;box-shadow: 0px 3px 20px 39px white;}
 .profile__section--1{background-image:url(/images/bg-mini.jpg); background-size: cover}
 .profile__form li{max-width: 520px;margin: auto}
-.profile__form input, .profile__form select{width: 100%; padding: 17px; text-align: center; outline: none; border:1px solid #e5e5e5; border-radius: 6px; margin:auto auto 25px; font-size: 20px; font-family:'RobotoRegular'; display: block}
-.profile__form select{-webkit-appearance: none;-moz-appearance: none;-ms-appearance: none;appearance: none !important;-moz-text-align-last: center;text-align-last: center;color: #c8c8c8; cursor: pointer}
-
+.profile__form input, .jq-selectbox__select{width: 100%; padding: 17px; text-align: center; outline: none; border:1px solid #e5e5e5; border-radius: 6px; margin:auto auto 25px; font-size: 20px; font-family:'RobotoRegular'; display: block}
+.form__field--age{width: 100%;}
+.jq-selectbox__dropdown{width: 100%; background-color: white;top: 61px!important;    -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);padding: 17px; border-radius: 10px}
+.jq-selectbox__dropdown ul{max-height: 300px!important}
+.jq-selectbox li{text-align: center; line-height: 2.2em; color: #435993; cursor: pointer}
+.jq-selectbox li:hover{background-color:#e9efff; -webkit-transition: 0.3s;-o-transition: 0.3s;transition: 0.3s }
+.jq-selectbox li:not(:hover){-webkit-transition: 0.3s;-o-transition: 0.3s;transition: 0.3s }
+.jq-selectbox__select{margin-bottom: 0; cursor: pointer}
 .profile__form .profile__form--year span{position: absolute; display: block; width: 13px; height: 8px; background-image: url(/images/arrow.svg); background-size: contain;top: 0; bottom: 0; right: 20px; margin: auto;}
 .profile__form .select-open{transform: rotate(180deg); transition: 0.3s}
 .profile__form span{transition: 0.3s}
-.profile__form input::-webkit-input-placeholder, .profile__form select::-webkit-input-placeholder{color: #c8c8c8}
-.profile__form .profile__form--year{max-width: 320px}
+.profile__form input::-webkit-input-placeholder{color: #c8c8c8}
+.profile__form .profile__form--year{max-width: 320px; margin-bottom: 20px}
 .profile__section--1 .content__title--icon{background-image: url(/images/icon-1.png)}
 .profile__section--2 .content__title--icon{background-image: url(/images/icon-2.png)}
 .profile__section--3 .content__title--icon{background-image: url(/images/icon-3.png)}
@@ -49,6 +54,7 @@ main.profile{padding-top: 75px}
 .form-set__box label{font-size: 16px; padding-left: 30px; color: black; cursor: pointer}
 .form-set__box input{display: none}
 .form-set__box label:before{content: "";display: block;height: 18px;width: 18px;background-color: #fff; border: 1px solid #435993;border-radius: 3px;position: absolute;left: 0;}
+.form-set__box label:hover:before{background-color: #e9efff}
 .form-set__box input:checked + label:before{background-color: #435993;border-color: #435993;background-image: url(../images/checked.svg);background-repeat: no-repeat;background-size: 15px 10px;background-position: center;}
 .profile__section--4 .content__title--txt{margin-bottom: 10px}
 .profile__section--4 .content__title{margin-bottom: 20px}
